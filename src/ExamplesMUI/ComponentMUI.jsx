@@ -34,6 +34,28 @@ import CustomizedAccordions from "./Example_Accordion.tsx"
 import PrimarySearchAppBar from "./Example_Appbar.tsx"
 import BottomAppBar from "./Example_BottomAppbar.tsx"
 import RecipeReviewCard from "./Example_Card.tsx"
+import SquareCorners from "./Example_Paper.tsx"
+import FixedBottomNavigation from "./Example_BottomNav.tsx"
+import IconBreadcrumbs from "./Example_Breadcrumbs.tsx"
+import SwipeableEdgeDrawer from "./Example_Drawer.tsx"
+import IconMenu from "./Example_Menu.tsx"
+import PaginationRounded from "./Example_Pagination.tsx"
+import ControlledOpenSpeedDial from "./Example_SpeedDial.tsx"
+import CustomizedSteppers from "./Example_Stepper.tsx"
+import ScrollableTabsButtonAuto from "./Example_Tab.tsx"
+import BoxBasic from "./Example_Box.tsx"
+import FixedContainer from "./Example_Container.tsx"
+import ComplexGrid from "./Example_Grid.tsx"
+import BasicGrid from "./Example_Grid2.tsx"
+import BasicStack from "./Example_Stack.tsx"
+import QuiltedImageList from "./Example_StackImage.tsx"
+import BasicPopover from "./Example_Popover.tsx"
+import PositionedPopper from "./Example_Popover2.tsx"
+import TransitionGroupExample from "./Example_Transition.tsx"
+import DataGridDemo from "./Example_Datagrid2.tsx"
+import FirstComponent from "./Example_DateTimePicker.tsx"
+import ChartsOverviewDemo from "./Example_Chart.tsx"
+import BasicSimpleTreeView from "./Example_Treeview.tsx"
 const ComponentMUI = (props) => {
   return (
     <>
@@ -119,8 +141,31 @@ const ComponentMUI = (props) => {
         <ListItem><CustomizedSnackbars/></ListItem>
         <ListItem><CustomizedAccordions/></ListItem>
         <ListItem><PrimarySearchAppBar/></ListItem>
-        <ListItem><BottomAppBar/></ListItem>
+        {/*-- <ListItem><BottomAppBar/></ListItem> --*/}
         <ListItem><RecipeReviewCard/></ListItem>
+        <ListItem><SquareCorners/></ListItem>
+        <ListItem><FixedBottomNavigation/></ListItem>
+        <ListItem><IconBreadcrumbs/></ListItem>
+        <ListItem><SwipeableEdgeDrawer/></ListItem>
+        <ListItem><IconMenu/></ListItem>
+        <ListItem><PaginationRounded/></ListItem>
+        <ListItem><ControlledOpenSpeedDial/></ListItem>
+        <ListItem><CustomizedSteppers/></ListItem>
+        <ListItem><ScrollableTabsButtonAuto/></ListItem>
+        <ListItem><BoxBasic/></ListItem>
+        <ListItem><FixedContainer/></ListItem>
+        <ListItem><ComplexGrid/></ListItem>
+        <ListItem><BasicGrid/></ListItem>
+        <ListItem><BasicStack/></ListItem>
+        <ListItem><QuiltedImageList/></ListItem>
+        <ListItem><BasicPopover/></ListItem>
+        <ListItem><PositionedPopper/></ListItem>
+        <ListItem><TransitionGroupExample/></ListItem>
+        <ListItem><DataGridDemo/></ListItem>
+        <ListItem><FirstComponent/></ListItem>
+        <ListItem><ChartsOverviewDemo/></ListItem>
+        <ListItem><BasicSimpleTreeView/></ListItem>
+        <ListItem><div style={{marginBottom:"120px"}}/></ListItem>
       </List>
     </>
   )
