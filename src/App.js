@@ -23,7 +23,8 @@ import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded"
 import LogoutRoundedIcon from "@mui/icons-material/LogoutRounded"
 import { Routes, Route, Link } from "react-router-dom"
 import React from "react"
-import { Checkbox, FormControlLabel, Input } from "@mui/material"
+import { Button, Checkbox, FormControlLabel, Input } from "@mui/material"
+import ComponentMUI from "./ExamplesMUI/ComponentMUI"
 
 const themes = {
   light: {
@@ -334,6 +335,8 @@ const Transactions = () => {
       <h1 className="header">KEEP TRACK OF YOUR SPENDINGS</h1>
       <h3>Seamless Transactions</h3>
       <p>Lorem ipsum dolor sit amet...</p>
+      <Button  variant="contained" color="primary">xx</Button>
+      <ComponentMUI/>
     </>
   )
 }
